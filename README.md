@@ -1,3 +1,15 @@
+This is an example implementation of Laravel Based REST APIS covering JWT token authentication.
+It contains users, products module to showcase the REST APIS based on JWT token authentication.
+
+- Git clone this repository in your local system
+- Run: "php artisan migrate" command
+- Run: "php artisan server" command
+- Use Postman or any other REST API requesting tool to check api calls for:
+1) api/login, api/logout, api/get_user For users related endpoints
+2) api/create, api/update, api/delete, api/products, api/products/{id} For products related endpoints
+
+Happy Coding.
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
